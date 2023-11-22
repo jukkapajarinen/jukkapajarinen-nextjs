@@ -2,6 +2,7 @@ import React from 'react';
 import { gql } from '@apollo/client';
 import client from '../lib/apolloClient';
 import Timeline from '../components/Timeline';
+import Navbar from '../components/Navbar';
 
 const GET_TIMELINE_ENTRIES = gql`
   query {
@@ -16,8 +17,11 @@ const GET_TIMELINE_ENTRIES = gql`
 `;
 
 const Home = ({ entries }) => (
-  <div className="flex justify-center items-center min-h-screen bg-gray-100">
-    <Timeline entries={entries} />
+  <div>
+    <Navbar />
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <Timeline entries={entries} />
+    </div>
   </div>
 );
 
