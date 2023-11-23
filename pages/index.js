@@ -11,7 +11,8 @@ const GET_TIMELINE_ENTRIES = gql`
       company
       startDate
       endDate
-      responsibilities
+      entries
+      technologies
     }
   }
 `;
@@ -24,7 +25,7 @@ export const getStaticProps = async () => {
   const entries = data.experience.map((experience) => ({
     title: experience.position,
     date: `${experience.startDate} - ${experience.endDate}`,
-    description: experience.responsibilities.join('\n'),
+    description: experience.entries.join('\n'),
   }));
 
   return {
@@ -39,12 +40,12 @@ const Home = ({ entries }) => (
     <div>
       <FullPage />
     </div>
-    {/* <hr />
+    <hr />
     <div>
       <div className="flex justify-center items-center min-h-screen bg-gray-100">
         <Timeline entries={entries} />
       </div>
-    </div> */}
+    </div>
   </div>
 );
 

@@ -1,60 +1,218 @@
 {
   "personalInfo": {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "phone": "123-456-7890",
-    "address": "123 Main St, City, Country"
+    "name": "Jukka Pajarinen",
+    "email": "jukka.pajarinen@lumitum.com"
   },
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "school": "University of XYZ",
-      "graduationYear": 2020
+      "school": "Tampereen Yliopisto",
+      "startDate": "8/2016",
+      "endDate": "2/2020",
+      "entries": [
+        "Diplomi-insinööri, Tietotekniikan DI-ohjelma.",
+        "Diplomityö: Web-käyttöliittymän hyväksymistestauksen priorisointi painotetun verkon avulla."
+      ]
+    },
+    {
+      "school": "Communication University of China, Nanjing ",
+      "startDate": "9/2017",
+      "endDate": "6/2018",
+      "entries": [
+        "Kiinan kielen ja kulttuurin vaihto-ohjelma."
+      ]
+    },
+    {
+      "school": "Karelia Ammattikorkeakoulu",
+      "startDate": "9/2010",
+      "endDate": "5/2014",
+      "entries": [
+        "Insinööri (AMK), Tietotekniikan koulutusohjelma.",
+        "Opinnäytetyö: TeamViewer etäopetuksessa : Case: Jilab Oy"
+      ]
     }
   ],
   "experience": [
     {
-      "position": "Software Developer",
-      "company": "ABC Corp",
-      "startDate": "2018-01-01",
-      "endDate": "2020-12-31",
-      "responsibilities": ["Developed web applications", "Collaborated with cross-functional teams"]
+      "position": "Web Developer",
+      "company": "Lumitum Oy:n asiakkaita",
+      "startDate": "9/2023",
+      "endDate": "11/2023",
+      "entries": [
+        "Wordpress-verkkosivustoja yksityiselle sektorille."
+      ],
+      "technologies": [
+        "Git",
+        "WordPress",
+        "PHP",
+        "SQL",
+        "HTML5",
+        "CSS3",
+        "Docker",
+        "Google Cloud Platform"
+      ]
     },
     {
-      "position": "Frontend Engineer",
-      "company": "XYZ Tech",
-      "startDate": "2021-01-01",
-      "endDate": "2022-06-30",
-      "responsibilities": ["Implemented user interfaces", "Optimized web performance"]
+      "position": "Web Developer",
+      "company": "Lumitum Oy:n asiakas",
+      "startDate": "2/2022",
+      "endDate": "12/2022",
+      "entries": [
+        "Drupal-verkkosivustoja julkiselle ja yksityiselle sektorille."
+      ],
+      "technologies": [
+        "Git",
+        "Drupal",
+        "PHP",
+        "SQL",
+        "Lando",
+        "Platform",
+        "Emulsify Drupal",
+        "Storybook",
+        "REST",
+        "PTV API"
+      ]
     },
     {
-      "position": "Full Stack Developer",
-      "company": "Tech Innovations",
-      "startDate": "2022-07-01",
-      "endDate": "2023-03-15",
-      "responsibilities": ["Designed and developed APIs", "Worked on database management"]
+      "position": "Full-stack Developer",
+      "company": "Lumitum Oy:n asiakas",
+      "startDate": "1/2021",
+      "endDate": "12/2021",
+      "entries": [
+        "Full-stack projekti sähköteollisuudelle."
+      ],
+      "technologies": [
+        "Git",
+        "Node.js",
+        "TypeScript",
+        "React",
+        "Objection.js",
+        "Knex.js",
+        "REST",
+        "Terraform",
+        "Azure",
+        "Docker",
+        "Jest",
+        "Cypress",
+        "Postgres"
+      ]
     },
     {
-      "position": "Senior Developer",
-      "company": "Coding Solutions",
-      "startDate": "2023-04-01",
-      "endDate": "2024-02-28",
-      "responsibilities": ["Led development teams", "Implemented coding best practices"]
+      "position": "Full-stack Developer",
+      "company": "WordDive Oy",
+      "startDate": "9/2018",
+      "endDate": "12/2020",
+      "entries": [
+        "Verkkoselainpohjaisen asiakasohjelman ohjelmistokehitys ja ylläpito.",
+        "Verkkosivustojen ohjelmistokehitys, päivittäminen ja ylläpito.",
+        "G Suiten käyttöönotto sekä järjestelmän ylläpito.",
+        "Ohjelmistokehitys osana Unity-pohjaisen mobiilisovelluksen kehittämistiimiä.",
+        "DevOps-putkien jatkokehittely, integraatiot ja ylläpito mobiilisovellukselle."
+      ],
+      "technologies": [
+        "Git",
+        "Webpack",
+        "jQuery",
+        "Dust.js",
+        "ES6",
+        "REST",
+        "PHP",
+        "MariaDB",
+        "Unity",
+        ".NET/C#",
+        "GoCD",
+        "Next.JS",
+        "GraphQL",
+        "JWT",
+        "Robot Framework",
+        "Jenkins",
+        "Selenium",
+        "G Suite"
+      ]
     },
     {
-      "position": "Tech Lead",
-      "company": "Innovative Systems",
-      "startDate": "2024-03-01",
-      "endDate": "2025-01-15",
-      "responsibilities": ["Provided technical leadership", "Architected scalable solutions"]
-    }
-  ],
-  "skills": ["JavaScript", "React", "Node.js", "GraphQL"],
-  "projects": [
+      "position": "Full-stack Developer",
+      "company": "Bitwise Oy / TUT",
+      "startDate": "10/2018",
+      "endDate": "3/2019",
+      "entries": [
+        "Verkkoselainpohjaisen, RFID-tunnisteita hyödyntävän, palvelun ohjelmistokehitys.",
+        "Työ tehtiin Project Work on Pervasive Systems TUT-opintojakson yhteydessä."
+      ],
+      "technologies": [
+        "Git",
+        "GitLab",
+        ".NET Core",
+        "Entity Framework Core 2.1",
+        "C#",
+        "Xunit",
+        "Jest",
+        "Restsharp",
+        "Newtonsoft.Json",
+        "PostgreSQL",
+        "Octane SDK",
+        "Docker",
+        ".NET Core",
+        "Nancy REST Framework",
+        "JWT",
+        ".NET Cryptography.Algorithms"
+      ]
+    },
     {
-      "title": "Project X",
-      "description": "A web application for...",
-      "technologies": ["React", "GraphQL", "Node.js"]
+      "position": "Software Designer",
+      "company": "Oscar Software Oy",
+      "startDate": "6/2015",
+      "endDate": "8/2016",
+      "entries": [
+        "Verkkokauppa-alustan kehitys ja ylläpito. Uusien verkkokauppojen tekninen toteuttaminen ja aiempien verkkokauppojen päivittäminen sekä ylläpito."
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "PDO",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "AJAX",
+        "XML",
+        "Android SDK",
+        "SVN"
+      ]
+    },
+    {
+      "position": "Web-kehittäjä",
+      "company": "Puolustusvoimat",
+      "startDate": "9/2014",
+      "endDate": "3/2015",
+      "entries": [
+        "Puolustusvoimien sisäisen verkkosovelluksen kehitys ja ylläpito.",
+        "Työ tehtiin täyspäiväisesti varusmiespalveluksen yhteydessä multimediavarusmiehenä."
+
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    },
+    {
+      "position": "Drupal Freelancer",
+      "company": "Jilab Oy",
+      "startDate": "7/2013",
+      "endDate": "8/2013",
+      "entries": [
+        "Yrityksen verkkosivuston toteuttaminen Drupal-alustalla.",
+        "Hosting, domain ja sertifikaatti-asioiden hoitaminen."
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
     }
   ]
 }
