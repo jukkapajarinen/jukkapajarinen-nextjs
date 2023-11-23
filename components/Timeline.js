@@ -10,9 +10,9 @@ const Timeline = ({ entries }) => (
             </svg>
           </div>
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] rounded bg-white p-8">
-              <div className="flex items-center justify-between space-x-2 mb-4">
-                  <div className="font-bold text-gray-800">{entry?.title}</div>
-                  <time className="font-bold text-teal-600">{entry?.date}</time>
+              <div className='mb-4'>
+                <div className="font-bold text-gray-800">{entry?.title}</div>
+                <time className="font-bold text-teal-600">{entry?.date}</time>
               </div>
               <ul className="text-gray-700 pl-5 list-disc mb-4">
                 {entry?.content?.map((text, index) => (
