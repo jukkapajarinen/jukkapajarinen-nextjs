@@ -25,12 +25,16 @@ const typeDefs = `#graphql
   }
 
   type Query {
+    information: [PersonalInfo]
+    education: [Education]
     experience: [Experience]
   }
 `;
 
 const resolvers = {
   Query: {
+    information: () => resumeData.information,
+    education: () => resumeData.education,
     experience: () => resumeData.experience,
   },
 };
