@@ -37,19 +37,19 @@ export const getStaticProps = async () => {
     query: GET_TIMELINE_ENTRIES,
   });
 
-  const experiences = data.experience.map((experience) => ({
-    title: `${experience.position} - ${experience.company}`,
-    date: `${experience.startDate} - ${experience.endDate}`,
-    duration: `${calculateMonths(experience.endDate, experience.startDate)}`,
-    content: experience.entries,
-    badges: experience.technologies,
+  const experiences = [...data.experience].sort((a, b) => moment(b.endDate, "MM/YYYY") - moment(a.endDate, "MM/YYYY")).map((experience) => ({
+      title: `${experience.position} - ${experience.company}`,
+      date: `${experience.startDate} - ${experience.endDate}`,
+      duration: `${calculateMonths(experience.endDate, experience.startDate)}`,
+      content: experience.entries,
+      badges: experience.technologies,
   }));
 
-  const educations = data.education.map((education) => ({
-    title: `${education.school}`,
-    date: `${education.startDate} - ${education.endDate}`,
-    duration: `${calculateMonths(education.endDate, education.startDate)}`,
-    content: education.entries
+  const educations = [...data.education].sort((a, b) => moment(b.endDate, "MM/YYYY") - moment(a.endDate, "MM/YYYY")).map((education) => ({
+      title: `${education.school}`,
+      date: `${education.startDate} - ${education.endDate}`,
+      duration: `${calculateMonths(education.endDate, education.startDate)}`,
+      content: education.entries
   }));
 
   return {
