@@ -1,0 +1,218 @@
+{
+   "personalInfo": {
+     "name": "Jukka Pajarinen",
+     "email": "jukka.pajarinen@lumitum.com"
+   },
+   "education": [
+     {
+       "school": "University of Tampere",
+       "startDate": "8/2016",
+       "endDate": "2/2020",
+       "entries": [
+         "Master of Science in Information Technology",
+         "Master’s Thesis: Web User Interface Acceptance Testing Prioritization with a Weighted Graph"
+       ]
+     },
+     {
+       "school": "Communication University of China, Nanjing ",
+       "startDate": "9/2017",
+       "endDate": "6/2018",
+       "entries": [
+         "Chinese language and Cultural Exchange Program"
+       ]
+     },
+     {
+       "school": "Karelia University of Applied Sciences",
+       "startDate": "9/2010",
+       "endDate": "5/2014",
+       "entries": [
+         "Bachelor of Engineering, Information Technology",
+         "TeamViewer for E-learning : Case: Jilab Oy"
+       ]
+     }
+   ],
+   "experience": [
+     {
+       "position": "Web Developer",
+       "company": "Customers of Lumitum Oy",
+       "startDate": "9/2023",
+       "endDate": "11/2023",
+       "entries": [
+         "Wordpress Websites for the Private Sector."
+       ],
+       "technologies": [
+         "Git",
+         "WordPress",
+         "PHP",
+         "SQL",
+         "HTML5",
+         "CSS3",
+         "Docker",
+         "Google Cloud Platform"
+       ]
+     },
+     {
+       "position": "Web Developer",
+       "company": "Customer of Lumitum Oy",
+       "startDate": "2/2022",
+       "endDate": "12/2022",
+       "entries": [
+         "Drupal websites for the public and private sectors."
+       ],
+       "technologies": [
+         "Git",
+         "Drupal",
+         "PHP",
+         "SQL",
+         "Lando",
+         "Platform",
+         "Emulsify Drupal",
+         "Storybook",
+         "REST",
+         "PTV API"
+       ]
+     },
+     {
+       "position": "Full-stack Developer",
+       "company": "Customer of Lumitum Oy",
+       "startDate": "1/2021",
+       "endDate": "12/2021",
+       "entries": [
+         "Full-stack Node.js project for the electrical industry."
+       ],
+       "technologies": [
+         "Git",
+         "Node.js",
+         "TypeScript",
+         "React",
+         "Objection.js",
+         "Knex.js",
+         "REST",
+         "Terraform",
+         "Azure",
+         "Docker",
+         "Jest",
+         "Cypress",
+         "Postgres"
+       ]
+     },
+     {
+       "position": "Full-stack Developer",
+       "company": "WordDive Oy",
+       "startDate": "9/2018",
+       "endDate": "12/2020",
+       "entries": [
+         "Software development and maintenance of a web browser-based client program.",
+         "Software development, updating and maintenance of websites.",
+         "G Suite implementation and system maintenance.",
+         "Software development as part of a Unity-based mobile application development team.",
+         "DevOps pipelines development, integrations and maintenance for the mobile application"
+       ],
+       "technologies": [
+         "Git",
+         "Webpack",
+         "jQuery",
+         "Dust.js",
+         "ES6",
+         "REST",
+         "PHP",
+         "MariaDB",
+         "Unity",
+         ".NET/C#",
+         "GoCD",
+         "Next.JS",
+         "GraphQL",
+         "JWT",
+         "Robot Framework",
+         "Jenkins",
+         "Selenium",
+         "G Suite"
+       ]
+     },
+     {
+       "position": "Full-stack Developer",
+       "company": "Bitwise Oy / TUT",
+       "startDate": "10/2018",
+       "endDate": "3/2019",
+       "entries": [
+         "Software development of a web browser-based service utilizing RFID tags.",
+         "The work was done during the Project Work on Pervasive Systems TUT course."
+       ],
+       "technologies": [
+         "Git",
+         "GitLab",
+         ".NET Core",
+         "Entity Framework Core 2.1",
+         "C#",
+         "Xunit",
+         "Jest",
+         "Restsharp",
+         "Newtonsoft.Json",
+         "PostgreSQL",
+         "Octane SDK",
+         "Docker",
+         ".NET Core",
+         "Nancy REST Framework",
+         "JWT",
+         ".NET Cryptography.Algorithms"
+       ]
+     },
+     {
+       "position": "Software Designer",
+       "company": "Oscar Software Oy",
+       "startDate": "6/2015",
+       "endDate": "8/2016",
+       "entries": [
+         "Development and maintenance of the e-commerce platform. Technical implementation of new online stores and updating and maintenance of previous online stores."
+       ],
+       "technologies": [
+         "PHP",
+         "MySQL",
+         "PDO",
+         "HTML5",
+         "CSS3",
+         "JavaScript",
+         "jQuery",
+         "AJAX",
+         "XML",
+         "Android SDK",
+         "SVN"
+       ]
+     },
+     {
+       "position": "Web Developer",
+       "company": "Defense Forces",
+       "startDate": "9/2014",
+       "endDate": "3/2015",
+       "entries": [
+         "Development and maintenance of the internal web application.",
+         "The work was done full-time during conscript service as a multimedia conscript."
+
+       ],
+       "technologies": [
+         "PHP",
+         "MySQL",
+         "HTML5",
+         "CSS3",
+         "JavaScript"
+       ]
+     },
+     {
+      "position": "Drupal Freelancer",
+      "company": "Jilab Oy",
+      "startDate": "7/2013",
+      "endDate": "8/2013",
+      "entries": [
+        "Implementation of the company's website on the Drupal platform",
+        "Hosting, domain and certificate handling."
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    }
+  ]
+}
