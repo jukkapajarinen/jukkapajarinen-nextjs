@@ -12,7 +12,10 @@ const Timeline = ({ entries }) => (
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] rounded bg-white p-8">
               <div className='mb-4'>
                 <div className="font-bold text-gray-800">{entry?.title}</div>
-                <time className="font-bold text-teal-600">{entry?.date}</time>
+                <div>
+                  <time className="font-bold text-teal-600">{entry?.date}</time>
+                  <span className="font-base italic text-gray-400"> ({entry?.duration} kk)</span>
+                </div>
               </div>
               <ul className="text-gray-700 pl-5 list-disc mb-4">
                 {entry?.content?.map((text, index) => (

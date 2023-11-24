@@ -4,6 +4,7 @@ import client from '../lib/apolloClient';
 import Timeline from '../components/Timeline';
 import Hero from '../components/Hero';
 import Navbar from '@/components/Navbar';
+import moment from 'moment';
 
 const GET_TIMELINE_ENTRIES = gql`
   query {
@@ -24,6 +25,13 @@ const GET_TIMELINE_ENTRIES = gql`
   }
 `;
 
+const calculateMonths = (endDate, startDate) => {
+  let end = moment(endDate, "MM/YYYY").endOf('month');
+  let start = moment(startDate, "MM/YYYY");
+  let monthDiff = Math.ceil(end.diff(start, "months", true));
+  return monthDiff;
+};
+
 export const getStaticProps = async () => {
   const { data } = await client.query({
     query: GET_TIMELINE_ENTRIES,
@@ -32,6 +40,7 @@ export const getStaticProps = async () => {
   const experiences = data.experience.map((experience) => ({
     title: `${experience.position} - ${experience.company}`,
     date: `${experience.startDate} - ${experience.endDate}`,
+    duration: `${calculateMonths(experience.endDate, experience.startDate)}`,
     content: experience.entries,
     badges: experience.technologies,
   }));
@@ -39,6 +48,7 @@ export const getStaticProps = async () => {
   const educations = data.education.map((education) => ({
     title: `${education.school}`,
     date: `${education.startDate} - ${education.endDate}`,
+    duration: `${calculateMonths(education.endDate, education.startDate)}`,
     content: education.entries
   }));
 
