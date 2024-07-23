@@ -6,8 +6,9 @@ My portfolio website from 2023 using NextJS, GraphQL and TailwindCSS.
 
 1. Use supported Node.js version: `nvm use`.
 2. Install node modules: `npm i`.
-3. Start development: `npm run dev`.
-3. Build Static site: `npm run build`.
+3. Start backend server: `node graphql/server.mjs`.
+4. Start development: `npm run dev`.
+5. Build Static site: `npm run build`.
 
 ## Author
 

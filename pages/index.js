@@ -62,17 +62,18 @@ export const getStaticProps = async () => {
 
 const Home = ({ experiences, educations }) => (
   <div className="min-h-screen bg-gray-100 text-gray-800">
-    <div className="p-6 space-y-8 pb-20 lg:pb-80">
+    <div className="space-y-8 pb-20 lg:pb-80">
       <Navbar/>
-      <main className="container mx-auto space-y-16">
+      <main className="container mx-auto space-y-16 p-6">
         <Hero />
         <section className="bg-gray-100 text-gray-800">
           <h2 className="text-5xl font-bold lg:text-center text-gray-900">Ansioluettelo</h2>
-          <span className="block mt-6 text-sm font-medium tracki uppercase lg:text-center text-teal-600">Työ ja projektihistoria</span>
+          <span className="block mt-6 text-md font-bold tracki uppercase lg:text-center text-teal-600">Työ ja projektihistoria</span>
           <Timeline entries={experiences} />
-          <span className="block mt-16 text-sm font-medium tracki uppercase lg:text-center text-teal-600">Koulutushistoria</span>
+          <span className="block mt-16 text-md font-bold tracki uppercase lg:text-center text-teal-600">Koulutushistoria</span>
           <Timeline entries={educations} />
         </section>
+        <p className="text-center">Kiitos kun luit! :-)</p>
       </main>
     </div>
   </div>
