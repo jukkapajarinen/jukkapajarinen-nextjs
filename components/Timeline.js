@@ -9,7 +9,7 @@ const Timeline = ({ entries }) => (
               <polygon fill="var(--ci-primary-color, currentColor)" points="200.359 382.269 61.057 251.673 82.943 228.327 199.641 337.731 428.686 108.687 451.314 131.313 200.359 382.269" className="ci-primary"/>
             </svg>
           </div>
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] rounded bg-white p-8">
+          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] rounded-xl border border-gray-300 bg-white p-8">
               <div className='mb-4'>
                 <div className="font-bold text-gray-800">{entry?.title}</div>
                 <div>

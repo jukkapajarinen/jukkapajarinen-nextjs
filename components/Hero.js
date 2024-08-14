@@ -15,7 +15,7 @@ const Hero = () => {
             Minulla on <span className="font-bold">paljon kokemusta</span> web-kehityksestä, mobiilikehityksestä ja UI/UX-suunnittelutöistä.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <a rel="noopener noreferrer" href="mailto:jukka.pajarinen@lumitum.com" className="px-8 py-3 text-lg font-semibold hover:underline rounded bg-teal-600 hover:lg:bg-teal-500 text-gray-50">Lähetä sähköpostia</a>
+            <a rel="noopener noreferrer" href="mailto:jukka.pajarinen@lumitum.com" className="px-8 py-3 text-lg font-semibold hover:underline rounded bg-gray-800 hover:lg:bg-teal-500 text-gray-50">Lähetä sähköpostia</a>
             <a rel="noopener noreferrer" href="https://lumitum.com" target="_blank" className="px-8 py-3 text-lg font-semibold hover:underline border rounded border-gray-800 hover:text-teal-600 hover:border-teal-600">Lumitum Oy</a>
           </div>
         </div>
