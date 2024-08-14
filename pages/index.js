@@ -77,7 +77,7 @@ const Home = ({ experiences, educations }) => (
       <Navbar />
       <main className="container mx-auto space-y-16 p-6">
         <Hero />
-        <section className="bg-gray-100 text-gray-800">
+        <section className="text-gray-800">
           <h2 className="text-5xl font-bold lg:text-center text-gray-900">
             Ansioluettelo
           </h2>

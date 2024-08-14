@@ -19,7 +19,6 @@ const Navbar = () => {
               <li><a className="block py-2 px-3 text-white hover:underline border-b-2 border-teal-600 lg:border-0 lg:p-0" href="https://www.theseus.fi/bitstream/handle/10024/72055/Pajarinen_Jukka.pdf" target="_blank">Opinnäytetyö 2014</a></li>
               <li><a className="animate-pulse block py-2 px-3 text-white hover:underline border-b-2 border-teal-600 lg:border-0 lg:p-0" href="https://github.com/jukkapajarinen" target="_blank">Github</a></li>
               <li><a className="block py-2 px-3 text-white hover:underline border-b-2 border-teal-600 lg:border-0 lg:p-0" href="https://fi.linkedin.com/in/jukkapajarinen" target="_blank">LinkedIn</a></li>
-              <li><a className="block py-2 px-3 text-white hover:underline border-b-2 border-teal-600 lg:border lg:border-white lg:rounded lg:px-4 lg:py-3 lg:inline lg:bg-teal-600 hover:lg:bg-teal-500 lg:text-gray-50" href="/CV_Lumitum_Jukka_Pajarinen_2023.pdf" target="_blank">Lataa CV</a></li>
             </ul>
           </div>
         </div>
