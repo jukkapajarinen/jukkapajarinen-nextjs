@@ -6,6 +6,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      screens: {
+        sm: '600px',
+        md: '700px',
+        lg: '800px',
+        xl: '900px',
+        '2xl': '1400px',
+      },
+    },
     extend: {},
   },
   plugins: [],

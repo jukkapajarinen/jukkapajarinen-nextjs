@@ -4,7 +4,7 @@ const Timeline = ({ entries }) => (
   <div className="mt-16 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
     {entries.map((entry, index) => (
       <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-teal-600 text-gray-50 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-600 text-gray-50 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2" style={{"background-image": "radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%)"}}>
             <svg className="scale-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <polygon fill="var(--ci-primary-color, currentColor)" points="200.359 382.269 61.057 251.673 82.943 228.327 199.641 337.731 428.686 108.687 451.314 131.313 200.359 382.269" className="ci-primary"/>
             </svg>
@@ -13,7 +13,7 @@ const Timeline = ({ entries }) => (
               <div className='mb-4'>
                 <div className="font-bold text-gray-800">{entry?.title}</div>
                 <div>
-                  <time className="font-bold text-teal-600">{entry?.date}</time>
+                  <time className="font-bold text-gray-600">{entry?.date}</time>
                   <span className="font-base italic text-gray-400"> ({entry?.duration} kk)</span>
                 </div>
               </div>

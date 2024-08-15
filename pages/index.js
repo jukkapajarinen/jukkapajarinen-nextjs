@@ -66,29 +66,29 @@ export const getStaticProps = async () => {
 
 const Home = ({ experiences, educations }) => (
   <div
-    className="min-h-screen text-gray-800"
+    className="min-h-screen bg-gray-500 text-gray-800"
     style={{
-      "background-image":
-        "radial-gradient(#12211547 1px, rgb(243, 244, 246) 1px)",
-      "background-size": "15px 15px",
+      "background-image": "linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)",
     }}
   >
     <div className="space-y-8 pb-20 lg:pb-80">
-      <Navbar />
       <main className="container mx-auto space-y-16 p-6">
         <Hero />
-        <section className="text-gray-800">
-          <h2 className="text-5xl font-bold lg:text-center text-gray-900">
-            Ansioluettelo
-          </h2>
-          <span className="block mt-6 text-md font-bold tracki uppercase lg:text-center text-teal-600">
-            Työ ja projektihistoria
-          </span>
-          <Timeline entries={experiences} />
-          <span className="block mt-16 text-md font-bold tracki uppercase lg:text-center text-teal-600">
-            Koulutushistoria
-          </span>
-          <Timeline entries={educations} />
+        <section className="bg-white text-gray-800 rounded-lg overflow-hidden border border-gray-300">
+          <Navbar />
+          <div className="p-20">
+            <h2 className="text-5xl font-bold text-center text-gray-900">
+              Ansioluettelo
+            </h2>
+            <span className="block mt-6 text-md font-bold tracki uppercase text-center text-gray-600">
+              Työ ja projektihistoria
+            </span>
+            <Timeline entries={experiences} />
+            <span className="block mt-16 text-md font-bold tracki uppercase text-center text-gray-600">
+              Koulutushistoria
+            </span>
+            <Timeline entries={educations} />
+          </div>
         </section>
         <p className="text-center font-medium">Kiitos kun luit! :-)</p>
       </main>
